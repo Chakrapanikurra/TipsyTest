@@ -14,6 +14,7 @@
 		2378E1FD2CF10608006B0816 /* TipsyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378E1FC2CF10608006B0816 /* TipsyTestTests.swift */; };
 		2378E2072CF10608006B0816 /* TipsyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378E2062CF10608006B0816 /* TipsyTestUITests.swift */; };
 		2378E2092CF10608006B0816 /* TipsyTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378E2082CF10608006B0816 /* TipsyTestUITestsLaunchTests.swift */; };
+		2378E2162CF1064E006B0816 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2378E2152CF1064E006B0816 /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2378E2022CF10608006B0816 /* TipsyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2378E2062CF10608006B0816 /* TipsyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyTestUITests.swift; sourceTree = "<group>"; };
 		2378E2082CF10608006B0816 /* TipsyTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2378E2152CF1064E006B0816 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2378E1EB2CF10605006B0816 /* TipsyTestApp.swift */,
 				2378E1ED2CF10605006B0816 /* ContentView.swift */,
+				2378E2152CF1064E006B0816 /* WelcomePage.swift */,
 				2378E1EF2CF10608006B0816 /* Assets.xcassets */,
 				2378E1F12CF10608006B0816 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2378E2162CF1064E006B0816 /* WelcomePage.swift in Sources */,
 				2378E1EE2CF10605006B0816 /* ContentView.swift in Sources */,
 				2378E1EC2CF10605006B0816 /* TipsyTestApp.swift in Sources */,
 			);
